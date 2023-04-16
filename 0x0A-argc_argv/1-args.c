@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - entry point
+ * @argc: arguments to count
+ * @argv: argument vector
+ *
+ * Return: Always 0 (success)
+ */
+
+int main(int argc, char *argv[])
+{
+	(void)argv;
+	printf("%d\n", argc - 1);
+	return (0);
+}
