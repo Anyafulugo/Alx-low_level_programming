@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all arguments
+ * main - program that prints all arguments it receives
  * @argv: argument vector
  * @argc: number of the arguments
  *
-Return: Always 0
-*/
+ * Return: Always 0
+ */
 int main(int argc, char *argv[])
 {
 	int y;
